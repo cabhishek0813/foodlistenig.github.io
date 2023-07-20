@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", serif; */
+}
+/* ABOUT SECTION */
+.about-section {
+  max-width: 120rem;
+  margin: 3rem auto;
+  margin-bottom: 5rem;
+}
+.about-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+.abt-img {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  object-fit: contain;
+}
+.abt-des {
+  font-family: "Inter", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* ABOUT SECOND SECTION */
+
+.about-second-section {
+  max-width: 120rem;
+  margin: 10rem auto;
+  margin-bottom: 5rem;
+}
+.about-second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3.6rem;
+}
+.second-img {
+  width: 100%;
+  object-fit: contain;
+}
+/* ABOUT TEAM */
+.about-team-section {
+  max-width: 120rem;
+  margin: 10rem auto;
+  margin-bottom: 5rem;
+}
+.about-team {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 3rem;
+  row-gap: 5rem;
+}
+.team-img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1.4rem;
+}
+.name {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+.designation {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #7f7f7f;
+  cursor: pointer;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 992px) {
+  .about-heading {
+    font-size: 6rem;
+  }
+  .abt-des {
+    font-size: 2rem;
+  }
+  .about-second {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-team {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-heading {
+    font-size: 4.2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-heading {
+    font-size: 2.4rem;
+  }
+  .abt-des {
+    font-size: 1.4rem;
+  }
+  .about-second {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .name {
+    font-size: 1.4rem;
+  }
+  .designation {
+    font-size: 1.2rem;
+  }
+}
