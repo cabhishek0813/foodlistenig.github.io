@@ -71,6 +71,60 @@ a {
 .mobile-btn-nav {
   display: none;
 }
+.d-hide-open {
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-color: rgb(255, 100, 43);
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+.d-icon {
+  margin-left: 1rem;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* HERO SECTION */
 .hero-section {
   max-width: 120rem;
