@@ -387,6 +387,9 @@ hr {
   .logo {
     width: 100%;
   }
+  .d-hide-open {
+    display: block;
+  }
   .hero {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
